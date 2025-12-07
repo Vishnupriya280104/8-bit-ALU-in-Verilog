@@ -33,14 +33,18 @@ The ALU performs basic arithmetic and logical operations and is verified using a
 iverilog -o alu_tb alu.v alu_tb.v
 vvp alu_tb
 gtkwave alu_tb.vcd
+```
 
 ## Simulation Results
 
 ### Console Output
-<img width="559" height="360" alt="Screenshot 2025-12-07 132731" src="https://github.com/user-attachments/assets/b4d64cc8-4b6b-417f-b305-482b2a0ad39f" />
+
+<img width="559" height="360" alt="Screenshot 2025-12-07 132731" src="https://github.com/user-attachments/assets/0e6f861a-09c7-4609-b4e2-1934d74b5270" />
+
 
 
 ### Waveform
-<img width="1852" height="543" alt="Screenshot 2025-12-07 133250" src="https://github.com/user-attachments/assets/c290840d-5093-4681-b394-abc0aaee216d" />
+
+<img width="1852" height="543" alt="Screenshot 2025-12-07 133250" src="https://github.com/user-attachments/assets/d6fc4485-6b4a-4141-9422-7569bebbe102" />
 
 
